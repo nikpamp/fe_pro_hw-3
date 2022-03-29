@@ -9,16 +9,16 @@ if (quantityOfOperations <= 0) {
         let operand2 = +prompt('Operand 2:');
 
         if (operator === '+') {
-            result = operand1 + operand2;
+            let result = operand1 + operand2;
             console.log(`Result: ${operand1} ${operator} ${operand2} = ${result}`);
         } else if (operator === '-') {
-            result = operand1 - operand2;
+            let result = operand1 - operand2;
             console.log(`Result: ${operand1} ${operator} ${operand2} = ${result}`);
         } else if (operator === '*') {
-            result = operand1 * operand2;
+            let result = operand1 * operand2;
             console.log(`Result: ${operand1} ${operator} ${operand2} = ${result}`);
         } else if (operator === '/') {
-            result = operand1 / operand2;
+            let result = operand1 / operand2;
             console.log(`Result: ${operand1} ${operator} ${operand2} = ${result}`);
         } else {
             alert(`This operator does not exist!`);
